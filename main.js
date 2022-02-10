@@ -11,4 +11,13 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
+
+    let newNum = Math.random();
+
+    // grabs the div with the given id and assigns it to buttonDiv
+    // grabbing ACTUAL div not just copy
+    let buttonDiv = document.getElementById("random_num");
+
+    buttonDiv.innerHTML = newNum;
+
 }
